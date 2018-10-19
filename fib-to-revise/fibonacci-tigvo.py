@@ -4,11 +4,11 @@
 def fib(n):
     x=0
     y=1
-    for i in range(n):
-        z=x+y
+    for i in range(n-1):
+        y=x+y
         x=y
-        y=z
-    return x
+        
+    return y
             
 
 print(fib(2018)) 

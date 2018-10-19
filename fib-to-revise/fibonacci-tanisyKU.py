@@ -59,7 +59,7 @@ def fib(n):
         return 0
     elif n == 1:
         return 1
-    else:
+    elif n>=2:
         (a, b) = (0, 1)
         for i in range(n - 1):
             (a, b) = (b, a + b)
